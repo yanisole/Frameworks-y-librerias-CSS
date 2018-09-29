@@ -177,4 +177,8 @@ input[id^="txt-search"] {
     .nav {
         margin-top: 3px;
     }
+
+    .nav>li>a {
+        padding: 5px 10px;
+    }
 }
