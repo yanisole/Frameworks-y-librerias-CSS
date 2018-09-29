@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Trossero Yanina Soledad">      
+        <meta name="keywords" content="gastronomía, cocina, recetas, blog, comidas">  
+        <title>Trabajo final Frameworks y Liberias CSS</title>
+        <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">  
+        <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="css/app.css">
+        <link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="columns shrink">
+                        <h2><img src="img/Logo.png" alt="Logo" width="55px"> Sabores del d&iacute;a</h2>
+                        <p class="text-right">Rico y sencillo!</p>
+                    </div>
+                    <div class="columns"></div>
+                </div>
+            </header>
+            <section>
+                <div class="row">
+                    <div class="columns medium-5 large-3 hide-for-small-only search-box">                        
+                        <div class="row collapse">
+                            <div class="medium-10 columns">
+                                <input type="text" placeholder="Buscar...">
+                            </div>
+                            <div class="medium-2 columns">
+                                <span class="button postfix"><i class="fi-magnifying-glass"></i></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="columns">
+                                <ul class="vertical menu list-group">
+                                    <li class="list-group-item"><a href="#">Inicio</a></li>
+                                    <li class="list-group-item"><a href="#">Receta del d&iacute;a</a></li>
+                                    <li class="list-group-item"><a href="#">Recetas de la semana</a></li>
+                                    <li class="list-group-item"><a href="#">Las m&aacute;s votadas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="columns">
+                                <h5>Favoritos:</h5>
+                            </div>
+                        </div>
+                        <div class="row">                           
+                            <div class="columns small-4">
+                                <img class="thumbnail" src="img/Comida1.jpg" alt="Asado" title="Asado a la parrilla">
+                            </div>
+                            <div class="columns small-4">
+                                <img class="thumbnail" src="img/Comida2.jpg" alt="Asado"  title="Pollo a la parrilla">
+                            </div>
+                            <div class="columns small-4">
+                                <img class="thumbnail" src="img/Comida3.jpg" alt="Ravioles con salsa roja" title="Ravioles con salsa roja">
+                            </div>
+                        </div>    
+                        <div class="row">                           
+                            <div class="columns small-4">
+                                <img class="thumbnail" src="img/Comida4.jpg" alt="Salm&oacute;n" title="Salm&oacute;n">
+                            </div>
+                            <div class="columns small-4">
+                                <img class="thumbnail" src="img/Comida5.jpg" alt="Verduras asadas"  title="Verduras asadas">
+                            </div>
+                            <div class="columns small-4">
+                                <img class="thumbnail" src="img/Comida6.jpg" alt="Fajitas" title="Fajitas">
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="columns">
+                                <h5>Historial:</h5>
+                            </div>
+                        </div>   
+                        <div class="row">
+                            <div class="columns">
+                                <ul class="vertical menu list-group" id="visited-recipes">
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">25</span> Canelones de carne y champiñones </a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">12</span> Canelones gratinados de soja y verduras</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">9</span> Empanada gallega de sardinas</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">31</span> Gajos de pomelo en almíbar</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">14</span> Galette des Rois o Rosca de Reyes como en Francia y Bélgica</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">60</span> Hamburguesas rellenas con cheddar</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">38</span> Hamburguesa de carne vacuna</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">24</span> Locro</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">7</span> Mondongo con garbanzos, tomates secos y panceta ahumada</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">52</span> Pan con jamón venezolano</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">33</span> Rosca de Reyes</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">12</span> Salmón rosado al vapor seco con cous cous y almendras</a></li>
+                                    <li class="list-group-item"><a href="#"><span class="badge secondary" title="Visitas">45</span> Torta glaseada de mandarina y almendras</a></li>
+                                </ul>
+                            </div>
+                        </div>            
+                    </div>
+                    <div class="columns">column2</div>
+                </div>
+            </section>
+        </div>
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/what-input.js"></script>
+        <script src="js/foundation.min.js" charset="utf-8"></script>
+    </body>
+</html>

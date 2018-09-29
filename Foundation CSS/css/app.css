@@ -1,0 +1,72 @@
+/*==> Generales <==*/
+body {
+    background: url('../img/Fondo.jpg') no-repeat fixed center;   
+    color: #6d4c41;
+}
+
+/*==> Cabecera <==*/
+.container {
+    background: #b1b1b1c0;
+    max-width: 64rem;
+    margin: 0 auto;    
+    min-height: 100vh;
+}
+
+header {
+    font-family: 'Srisakdi', cursive !important;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+header h2 {
+    color: #4e342e;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.search-box {
+    background: #efebe9;
+    padding-top: 5px;
+    border: 1px solid #d7ccc8;
+    min-height: 300px;
+}
+
+@media (max-width: 350px) { 
+    /*==> Cabecera <==*/
+    .container {
+        width: 100%;    
+    }
+}
+
+.list-group {
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    background: #fefefe;
+    box-shadow: none;
+    overflow: hidden;
+    margin-left: 0;
+  }
+  
+  .list-group > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .list-group-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .list-group-item > :last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+  }  
+  
+  .list-group-item:hover, .list-group-item:focus {
+    background-color: #b1b1b1;
+}
+
+#visited-recipes a {
+    font-size: 0.8em;
+}
+  
