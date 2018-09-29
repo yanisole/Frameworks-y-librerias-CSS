@@ -1,0 +1,180 @@
+/*
+* NOTA: Los tamaños de media query seleccionados se tomaron del sitio oficial de
+* bootstrap, es decir, se usan los mismos breakpoints que el framework.
+*/
+/*==> Genéricas <==*/
+@font-face {
+    font-family: Ubuntu;
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+body {
+    font-size:12px;
+}
+
+.responsive-text {
+    font-size: 1em;
+}
+
+.hide-for-xs, .hide-for-sm, .hide-for-med, .hide-for-lg {
+    display: inline;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.thumbnail .caption h3, .media .media-body h4 {
+    background: #c55454;
+    color: #ffffff;
+    padding: 3px;
+}
+
+textarea {
+    resize: none;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+}
+
+/*==> Cabecera <==*/
+#site-name {
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    color: #f3f3f3;
+    font-size: 3rem;
+    vertical-align: top;
+}
+
+header {
+    box-shadow: 6px 9px 43px #d0c9c9;
+    -webkit-box-shadow: 6px 9px 43px #d0c9c9;
+    -moz-box-shadow: 6px 9px 43px #d0c9c9;
+}
+
+/* Redes sociales */
+#sn {
+    margin-top: 15px;    
+    margin-right: 2px;
+    float: right;
+}
+
+.brand-superior {
+    background: #c62828;
+    height: 40px;
+}
+
+.brand-superior a > img {
+    width: 16px;  
+    height: 16px;
+}
+
+.logo {
+    width: 90px;    
+}
+
+.nav {
+    margin-top: -46px;   
+}
+
+/*==> Cuerpo <==*/
+.container-fluid {
+    margin-top: 100px;
+}
+
+article {
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 5px;       
+    box-shadow: 5px 5px 8px rgb(168, 168, 168);
+    -webkit-box-shadow: 5px 5px 8px rgb(168, 168, 168);
+    -moz-box-shadow: 5px 5px 8px rgb(168, 168, 168);
+}
+
+article img {
+    width: 256px;
+    border: 1px solid #777777;
+}
+
+article textarea {
+    background: #fafafa; 
+}
+
+input[id^="txt-search"] {
+    border-radius: 0 !important;
+}
+
+/* Buscador en dispositivos pequeños */
+.search-on-small {
+    margin-bottom: 5px;
+}
+
+/*==> Dispositivos grandes <==*/
+@media (min-width: 1200px) {
+    /*==> Genéricas <==*/
+    .hide-for-lg {
+        display: none;
+    }
+}
+
+/*==> Dispositivos medianos <==*/
+@media (min-width: 769px) and (max-width: 1199px){
+    /*==> Genéricas <==*/
+    .hide-for-med {
+        display: none;
+    }
+}
+
+/*==> Dispositivos pequeños <==*/
+@media (max-width: 768px) { 
+    /*==> Genéricas <==*/
+    .hide-for-sm {
+        display: none;
+    }
+
+    .responsive-text {
+        font-size: 0.8em;
+    }
+
+    .container-fluid {
+        margin-top: 140px;
+    }
+
+    /*==> Cabecera <==*/
+    .nav {
+        float: right !important;
+        margin-top: -26px;
+    }
+
+    .nav > li {
+        float: left !important;
+    }
+
+    .logo {
+        width: 70px;    
+    }
+
+    #site-name {
+        font-size: 2rem;
+     }
+}
+
+@media (max-width: 350px) { 
+    /*==> Genéricas <==*/
+    .hide-for-xs {
+        display: none;
+    }
+
+    .responsive-text {
+        font-size: 1em;
+    }
+
+    /*==> Cabecera <==*/
+    .logo {
+        width: 38px;    
+    }
+
+    .nav {
+        margin-top: 3px;
+    }
+}

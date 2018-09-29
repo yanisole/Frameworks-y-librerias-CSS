@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Trossero Yanina Soledad">      
+        <meta name="keywords" content="blog, música, music, artistas, artists, bandas, bands">  
+        <title>Trabajo final Frameworks y Liberias CSS</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/site.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">                
+                <div class="row-fluid brand-superior">                    
+                    <div class="col-xs-12">       
+                        <img src="img/Logo.png" alt="Logo" class="logo"> <div id="site-name" class="hide-for-xs">El rincon de la m&uacutesica</div>
+                        <div id="sn">                    
+                            <a href="https://es-la.facebook.com/" target="blank" title="Facebook"><img src="img/fb.png" alt="Facebook"></a>                        
+                            <a href="https://twitter.com/login?lang=es" target="blank" title="Twitter"><img src="img/tt.png" alt="Twitter"></a>    
+                            <a href="https://www.instagram.com/?hl=es-la" target="blank" title="Instagram"><img src="img/ig.png" alt="Instagram"></a>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="col-xs-12">    
+                        <ul class="nav navbar-nav navbar-right nav-pill">
+                            <li class="active"><a href="#" title="Inicio">
+                                <i class="fa fa-home"></i>
+                                <span class="hide-for-sm"> Inicio</span>
+                            </a></li>                               
+                            <li><a href="#" title="Artistas">
+                                <i class="fa fa-music"></i>
+                                <span class="hide-for-sm"> Artistas</span>
+                            </a></li>
+                            <li><a href="#" title="Grupos">
+                                <i class="fa fa-group"></i>
+                                <span class="hide-for-sm"> Grupos</span>
+                            </a></li>
+                            <li><a href="#" title="Top 10">
+                                <i class="fa fa-sort-amount-asc"></i>
+                                <span class="hide-for-sm"> Top 10</span>
+                            </a></li>
+                            <li><a href="#" title="Letras">
+                                <i class="fa fa-align-justify"></i>
+                                <span class="hide-for-sm"> Letras</span>
+                            </a></li>
+                            <li><a href="#" title="Acerca de">
+                                <i class="fa fa-question"></i>
+                                <span class="hide-for-sm"> Acerca de</span>
+                            </a></li>
+                        </ul>   
+                    </div>                        
+                </div>       
+                <div class="row-fluid hide-for-med hide-for-lg">                    
+                   <div class="col-xs-12 search-on-small">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Buscar..." id="txt-search-1" >
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </div>
+                        </div>
+                   </div>                    
+                </div>    
+            </nav>
+        </header> 
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9" id="main-content">
+                        <article>
+                            <div class="media hide-for-xs hide-for-sm hide-for-med">                            
+                                <div class="media-body">
+                                    <h4 class="media-heading">Tributo a los Beatles</h4>
+                                    <span class="responsive-text">Reconocida como la m&aacute;s exitosa comercialmente y la m&aacute;s alabada por la cr&iacute;tica en la historia de la m&uacute;sica popular. Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra r&iacute;tmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista).</span>
+                                    <div class="form-group" style="margin-top:5px;">                 
+                                        <label for="txt-post-comment1" class="responsive-text"><i class="fa fa-pencil"></i> Comenta</label>
+                                        <textarea class="form-control" rows="3" placeholder="Ingrese su comentario..." id="txt-post-comment1" name="txt-post-comment1"></textarea>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <a href="#">
+                                        <img class="media-object" src="img/Beatles.jpg" title="Los Beatles" alt="Los Beatles">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hide-for-lg">
+                                <div class="thumbnail">
+                                    <img class="media-object img-responsive" src="img/Beatles.jpg" title="Los Beatles" alt="Los Beatles">
+                                    <div class="caption">
+                                        <h3>Tributo a los Beatles</h3>
+                                        <p>Reconocida como la m&aacute;s exitosa comercialmente y la m&aacute;s alabada por la cr&iacute;tica en la historia de la m&uacute;sica popular. Formada en Liverpool, estuvo constituida desde 1962 por John Lennon (guitarra r&iacute;tmica, vocalista), Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista) y Ringo Starr (batería, vocalista).</p>
+
+                                        <div class="form-group">                 
+                                            <label for="txt-comment1" class="responsive-text"><i class="fa fa-pencil"></i> Comenta</label>
+                                            <textarea class="form-control" rows="3" placeholder="Ingrese su comentario..." id="txt-comment1" name="txt-comment1"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </article>
+                        <article>
+                            <div class="media hide-for-xs hide-for-sm hide-for-med">      
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img class="media-object" src="img/Daddy.png" title="Daddy Yankee" alt="Daddy Yankee">
+                                    </a>
+                                </div>                      
+                                <div class="media-body">
+                                    <h4 class="media-heading">El Rey del Reggaeton</h4>
+                                    <span class="responsive-text">Diversos sectores de la crítica le consideran <strong>El rey del reguet&oacute;n</strong>, por ser uno de los pioneros del reguet&oacute;n y de los responsables de haber popularizado ese g&eacute;nero musical en Am&eacute;rica Latina y el resto del mundo tras haberse consolidado como uno de los artistas m&aacute;s respetados e influyentes del circuito urbano latino. De la misma manera, el portal estadounidense Allmusic afirma que el puertorriqueño <strong>ayud&oacute; a establecer el reguet&oacute;n como un estilo de m&uacute;sica durante el siglo XXI</strong></span>
+                                    <div class="form-group" style="margin-top:5px;">                 
+                                        <label for="txt-post-comment1" class="responsive-text"><i class="fa fa-pencil"></i> Comenta</label>
+                                        <textarea class="form-control" rows="3" placeholder="Ingrese su comentario..." id="txt-post-comment1" name="txt-post-comment1"></textarea>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="hide-for-lg">
+                                <div class="thumbnail">
+                                    <img class="media-object" src="img/Daddy.png" title="Daddy Yankee" alt="Daddy Yankee">
+                                    <div class="caption">
+                                        <h3>El Rey del Reggaeton</h3>
+                                        <p>Diversos sectores de la crítica le consideran <strong>El rey del reguet&oacute;n</strong>, por ser uno de los pioneros del reguet&oacute;n y de los responsables de haber popularizado ese g&eacute;nero musical en Am&eacute;rica Latina y el resto del mundo tras haberse consolidado como uno de los artistas m&aacute;s respetados e influyentes del circuito urbano latino. De la misma manera, el portal estadounidense Allmusic afirma que el puertorriqueño <strong>ayud&oacute; a establecer el reguet&oacute;n como un estilo de m&uacute;sica durante el siglo XXI</strong></p>
+
+                                        <div class="form-group">                 
+                                            <label for="txt-comment1" class="responsive-text"><i class="fa fa-pencil"></i> Comenta</label>
+                                            <textarea class="form-control" rows="3" placeholder="Ingrese su comentario..." id="txt-comment1" name="txt-comment1"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </article>
+                        <article>
+                            <div class="media hide-for-xs hide-for-sm hide-for-med">                            
+                                <div class="media-body">
+                                    <h4 class="media-heading">Nuestra Celia</h4>
+                                    <span class="responsive-text">A lo largo de su carrera, Celia Cruz interpret&oacute; y populariz&oacute; internacionalmente ritmos como el son, son <strong>montuno, guaguanc&oacute;, rumba, guaracha y bolero</strong>. Sin embargo, el g&eacute;nero que llev&oacute; al estrellato fue la salsa, ritmo cubano influenciado por estilos de diferentes partes del mundo, y que la estableci&oacute; como una de las principales artistas femeninas en la historia de la música latinoamericana.​</span>
+                                    <div class="form-group" style="margin-top:5px;">                 
+                                        <label for="txt-post-comment1" class="responsive-text"><i class="fa fa-pencil"></i> Comenta</label>
+                                        <textarea class="form-control" rows="3" placeholder="Ingrese su comentario..." id="txt-post-comment1" name="txt-post-comment1"></textarea>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <a href="#">
+                                        <img class="media-object" src="img/CeliaCruz.jpg" title="Celia Cruz" alt="Celia Cruz">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hide-for-lg">
+                                <div class="thumbnail">
+                                    <img class="media-object" src="img/CeliaCruz.jpg" title="Celia Cruz" alt="Celia Cruz">
+                                    <div class="caption">
+                                        <h3>Nuestra Celia</h3>
+                                        <p>A lo largo de su carrera, Celia Cruz interpret&oacute; y populariz&oacute; internacionalmente ritmos como el son, son <strong>montuno, guaguanc&oacute;, rumba, guaracha y bolero</strong>. Sin embargo, el g&eacute;nero que llev&oacute; al estrellato fue la salsa, ritmo cubano influenciado por estilos de diferentes partes del mundo, y que la estableci&oacute; como una de las principales artistas femeninas en la historia de la música latinoamericana.​</p>
+
+                                        <div class="form-group">                 
+                                            <label for="txt-comment1" class="responsive-text"><i class="fa fa-pencil"></i> Comenta</label>
+                                            <textarea class="form-control" rows="3" placeholder="Ingrese su comentario..." id="txt-comment1" name="txt-comment1"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </article>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-3 hide-for-sm hide-for-xs" id="search-panel">  
+                        <div class="col-xs-12">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Buscar..." id="txt-search-2" >
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </div>
+                            </div>                     
+                        </div>                                                
+                        <div class="col-xs-12" style="margin-top:5px">
+                            <div class="list-group">                                
+                                <button type="button" class="list-group-item">Blues</button>
+                                <button type="button" class="list-group-item">Country</button>
+                                <button type="button" class="list-group-item">Disco</button>
+                                <button type="button" class="list-group-item">Flamenco</button>
+                                <button type="button" class="list-group-item">Funk</button>
+                                <button type="button" class="list-group-item">Gospel</button>
+                                <button type="button" class="list-group-item">Hip Hop</button>
+                                <button type="button" class="list-group-item">Jazz</button>
+                                <button type="button" class="list-group-item">Metal</button>
+                                <button type="button" class="list-group-item">M&uacute;sica Cl&aacute;sica</button>
+                                <button type="button" class="list-group-item">M&uacute;sica Electr&oacute;nica</button>
+                                <button type="button" class="list-group-item">M&uacute;sica Latina</label></button>
+                                <button type="button" class="list-group-item">M&uacute;sica Instrumental</button>
+                                <button type="button" class="list-group-item">Pop</button>
+                                <button type="button" class="list-group-item">Reggaeton</button>
+                                <button type="button" class="list-group-item">Rock And Roll</button>
+                                <button type="button" class="list-group-item">Salsa</button>        
+                                <button type="button" class="list-group-item">Tango</button>
+                            </div>                            
+                        </div>   
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>  
+    </body>
+</html>
