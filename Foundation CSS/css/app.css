@@ -16,10 +16,12 @@ header {
     font-family: 'Srisakdi', cursive !important;
     font-size: 13pt;
     font-weight: bold;
+    background: #e6e6e6;
+    margin-bottom: 5px;
 }
 
 header h2 {
-    color: #4e342e;
+    color: #6d4c41;
     font-family: inherit;
     font-weight: bold;
 }
@@ -27,15 +29,8 @@ header h2 {
 .search-box {
     background: #efebe9;
     padding-top: 5px;
-    border: 1px solid #d7ccc8;
+    border: 1px solid #e6e6e6;
     min-height: 300px;
-}
-
-@media (max-width: 350px) { 
-    /*==> Cabecera <==*/
-    .container {
-        width: 100%;    
-    }
 }
 
 .list-group {
@@ -69,4 +64,63 @@ header h2 {
 #visited-recipes a {
     font-size: 0.8em;
 }
-  
+
+.callout, label {
+    color: #6d4c41;
+}
+
+.callout img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.callout ul>li, .callout ol>li {
+    overflow: hidden;
+}
+.callout ul>li::before {
+    content: '';
+    border-top: 50px;
+    border-color: #6d4c41;
+    margin-right: 5px;
+    border-style: solid;
+}
+
+.callout ol {
+    counter-reset: counter-item;
+}
+
+.callout ol>li{
+    border-top: 1px solid;    
+}
+
+.callout ol>li::before {
+    content: counter(counter-item);
+    counter-increment: counter-item;   
+    margin-right: 10px;
+    background: #6d4c41;        
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.comment {
+    border-left: 5px solid #6d4c41;
+    background: #efebe9;
+    margin-bottom: 5px;
+    text-indent: 15px;
+    padding-left: 3px;
+}
+
+.right {
+    float: right;
+}
+
+@media (max-width: 350px) { 
+    /*==> Cabecera <==*/
+    .container {
+        width: 100%;    
+    }
+}
