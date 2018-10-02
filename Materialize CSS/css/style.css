@@ -1,0 +1,33 @@
+body {
+    background: url('../img/BackgroundImage.jpg') no-repeat center;  
+    font-family: 'K2D', sans-serif;      
+}
+
+.no-padding {
+    padding: 0;
+}
+
+header {
+    background: #fce4ec;
+}
+
+header figure {
+    margin: 10px;
+    font-weight: bold;
+    color: #bb7477;    
+}
+
+.brand-logo span {
+    font-size:11pt;   
+}
+
+@media (max-width: 300px){
+    header ul i {
+        font-size: 1.5em !important;
+       
+    }
+
+    header ul a {
+        padding: 0 5px !important;
+    }
+}
