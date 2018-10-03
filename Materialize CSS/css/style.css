@@ -11,23 +11,36 @@ header {
     background: #fce4ec;
 }
 
-header figure {
+/*header figure {
     margin: 10px;
     font-weight: bold;
     color: #bb7477;    
-}
+}*/
 
 .brand-logo span {
     font-size:11pt;   
 }
 
-@media (max-width: 300px){
-    header ul i {
+#dropdown1 li>a{
+    color: #880e4f !important;
+}
+
+@media (max-width: 350px){
+    /*header ul i {
         font-size: 1.5em !important;
        
     }
 
     header ul a {
         padding: 0 5px !important;
+    }*/
+
+    .brand-logo img {
+        width: 100px !important;
     }
 }
+
+.dropdown-content{
+    width: max-content !important;
+    height:auto !important;
+ }

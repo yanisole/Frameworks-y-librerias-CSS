@@ -16,23 +16,26 @@
     <body>
         <header>
             <div class="row">                
-                <div class="col s12 m12 l12 xl12 no-padding">
-                    <figure class="hide-on-med-and-up">
-                        <img src="img/Logo.png" class="responsive-img" alt="Logo">
-                        <figcaption>El placer de viajar</figcaption>
-                    </figure>
-                    
+                <div class="col s12 m12 l12 xl12 no-padding">                          
                     <div class="navbar-fixed">
-                        <nav>
+                        <ul id="dropdown1" class="dropdown-content">
+                            <li><a href="#!">Inicio</a></li>
+                            <li><a href="#!">Promociones</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#!">Lo mas vendido</a></li>
+                            <li><a href="#!">Viajes</a></li>
+                        </ul>
+                        <nav>     
                             <div class="nav-wrapper">
-                                <a href="#!" class="brand-logo left hide-on-small-only">
-                                    <img src="img/Logo.png" class="responsive-img" alt="Logo"><span>El placer de viajar</span>
+                                <a href="#!" class="brand-logo left">
+                                    <img src="img/Logo.png" class="responsive-img" alt="Logo"><span class="hide-on-small-only">El placer de viajar</span>
                                 </a>
                                 <ul class="right">                               
-                                    <li><a href="#"><i class="material-icons left">home</i><span class="hide-on-med-and-down">Inicio</span></a></li>
-                                    <li><a href="#"><i class="material-icons left">card_travel</i><span class="hide-on-med-and-down">Promociones</span></a></li>
-                                    <li><a href="#"><i class="material-icons left">flight_takeoff</i><span class="hide-on-med-and-down">Lo mas vendido</span></a></li>
-                                    <li><a href="#"><i class="material-icons left">flight</i><span class="hide-on-med-and-down">Viajes</span></a></li>
+                                    <li class="hide-on-small-only"><a href="#"><i class="material-icons left">home</i><span class="hide-on-med-and-down">Inicio</span></a></li>
+                                    <li class="hide-on-small-only"><a href="#"><i class="material-icons left">card_travel</i><span class="hide-on-med-and-down">Promociones</span></a></li>
+                                    <li class="hide-on-small-only"><a href="#"><i class="material-icons left">flight_takeoff</i><span class="hide-on-med-and-down">Lo mas vendido</span></a></li>
+                                    <li class="hide-on-small-only"><a href="#"><i class="material-icons left">flight</i><span class="hide-on-med-and-down">Viajes</span></a></li>
+                                    <li class="hide-on-med-and-up"><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">menu</i></a></li>   
                                 </ul>                                                       
                             </div>                            
                         </nav>
@@ -42,15 +45,138 @@
         </header>
         <section>
             <div class="row">
-                <div class="col s12">
-                    El placer de volar
+                <div class="col l1 xl1 hide-on-med-and-down">
+                    <div class="row">
+                        <div class="col s12"><a href="https://es-la.facebook.com/" target="_blank"><img class="img-responsive z-depth-3" src="img/Facebook.png" alt="Facebook" title="Facebook"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12"><a href="https://www.google.com/" target="_blank"><img class="img-responsive z-depth-3" src="img/GooglePlus.png" alt="Facebook" title="Facebook"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12"><a href="https://www.instagram.com/?hl=es-la" target="_blank"><img class="img-responsive z-depth-3" src="img/Instagram.png" alt="Facebook" title="Facebook"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12"><a href="https://web.telegram.org/" target="_blank"><img class="img-responsive z-depth-3" src="img/Telegram.png" alt="Facebook" title="Facebook"></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12"><a href="https://twitter.com/login?lang=es" target="_blank"><img class="img-responsive z-depth-3" src="img/Twitter.png" alt="Facebook" title="Facebook"></a></div>
+                    </div>                
+                </div>
+                <div class="col s12 m12 l11 xl11">
+                    <div class="row">
+                        <div class="col s12 m6 l4 xl4">
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <div class="card medium center-align">
+                                        <div class="card-image">
+                                            <img src="img/Paris.png" alt="Paris" title="Paris">
+                                            <span class="card-title">Paris</span>
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Viaje a paris y viva una experiencia &uacute;nica</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Mas Informaci&oacute;n</a>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>    
+                            <div class="row">
+                                <div class="col s12 m12 l12 xl12">
+                                    <div class="card medium">
+                                        <div class="card-image">
+                                            <img src="img/Londres.jpg" alt="Londres" title="Londres">
+                                            <span class="card-title">Londres</span>
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Londres es una ciudad apasionante, con un ambiente &uacute;nico.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Mas Informaci&oacute;n</a>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>                    
+                        </div>  
+                        <div class="col s12 m12 l4 xl4">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="card medium">
+                                        <div class="card-image">
+                                            <img src="img/NewYork.png" alt="New York" title="New York">
+                                            <span class="card-title">New York</span>
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Nueva York, o New York como muchos dicen, es una gran ciudad con muchas posibilidades.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Mas Informaci&oacute;n</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="card medium">
+                                        <div class="card-image">
+                                            <img src="img/Caribe.png" alt="Caribe" title="Caribe">
+                                            <span class="card-title">Caribe</span>
+                                        </div>
+                                        <div class="card-content">
+                                            <p>En el Caribe le espera todo un mundo vacacional durante los tiempos calurosos, con playas perfectas, docenas de lugares para explorar.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Mas Informaci&oacute;n</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l4 xl4">
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="card medium">
+                                        <div class="card-image">
+                                            <img src="img/Escocia.png" alt="Escocia" title="Escocia">
+                                            <span class="card-title">Escocia</span>
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Si so&ntilde;&aacute;is con viajar por los valles salvajes de las Highlands o con perderos por las misteriosas calles de Edimburgo, al son de las gaitas.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Mas Informaci&oacute;n</a>
+                                        </div>
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col s12">
+                                    <div class="card medium">
+                                        <div class="card-image">
+                                            <img src="img/RioJaneiro.png" alt="R&iacute; de Janeiro" title="R&iacute; de Janeiro">
+                                            <span class="card-title">R&iacute; de Janeiro</span>
+                                        </div>
+                                        <div class="card-content">
+                                            <p>Es una ciudad rodeada de naturaleza y eso es lo que enamora a quien la visita, más que los cariocas, la samba o las caipirinhas.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">Mas Informaci&oacute;n</a>
+                                        </div>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s2">SN</div>
-                <div class="col s10">Img</div>
-            </div>
         </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
+        
+        <script type="text/javascript">           
+            $(document).ready(function(){            
+                $('.dropdown-trigger').dropdown();
+            });
+        </script>
     </body>
 </html>
