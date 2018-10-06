@@ -1,5 +1,8 @@
 body {
-    background: url('../img/BackgroundImage.jpg') no-repeat center;  
+    background-image: url('../img/BackgroundImage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
     font-family: 'K2D', sans-serif;      
 }
 
@@ -11,31 +14,36 @@ header {
     background: #fce4ec;
 }
 
-/*header figure {
-    margin: 10px;
-    font-weight: bold;
-    color: #bb7477;    
-}*/
-
 .brand-logo span {
     font-size:11pt;   
 }
 
-#dropdown1 li>a{
-    color: #880e4f !important;
+.img-view, .sn {
+     border: 1px solid #e2e2e2;
 }
 
+.img-view {
+    padding: 10px;  
+    width: 100%;  
+}
+
+.publication img {
+    width: 100%; 
+}
+
+.publication-data {
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: 0.8em;
+ }
+
+.sn {
+    padding: 3px;
+}
+
+
 @media (max-width: 350px){
-    /*header ul i {
-        font-size: 1.5em !important;
-       
-    }
-
-    header ul a {
-        padding: 0 5px !important;
-    }*/
-
-    .brand-logo img {
+   .brand-logo img {
         width: 100px !important;
     }
 }
@@ -44,3 +52,27 @@ header {
     width: max-content !important;
     height:auto !important;
  }
+
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.top-left {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    padding: 5px;
+    background: rgba(27, 15, 15, 0.53);
+}
+
+.bottom-right-logo {
+    position: absolute;
+    bottom: 10px;
+    right: -125px;
+    font-size: 16pt;
+    font-family: 'Great Vibes', cursive;
+}
+
